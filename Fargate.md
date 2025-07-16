@@ -1,2 +1,10 @@
-1.Create Fargate profile
-eksctl create fargateprofile --cluster demo-cluster-1 --region us-east-1 --name alb-sample-app --namespace game-2048 
+# 🎮 Fargate Profile for 2048 App
+
+This configuration creates a Fargate profile for the 2048 game application running on Amazon EKS.
+
+---
+
+## 🛠️ Command to Create Fargate Profile
+
+```bash
+eksctl create cluster --name demo-cluster-1 --region us-east-1 –fargate
