@@ -5,7 +5,6 @@
 
 Open **Command Prompt** or **PowerShell**, then run:
 
-```cmd
 helm repo add eks https://aws.github.io/eks-charts
 
 2️⃣ Install the Controller with Helm
